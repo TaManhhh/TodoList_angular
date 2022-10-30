@@ -1,0 +1,22 @@
+<h1> Thêm mới </h1>
+<div mat-dialog-content>
+  <form [formGroup]="formGroup">
+    <mat-form-field appearance="outline">
+      <mat-label>Mã danh mục</mat-label>
+      <input matInput type="number"  formControlName="maDanhMuc">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Tên danh mục </mat-label>
+      <input matInput formControlName="tenDanhMuc">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Ghi chú</mat-label>
+      <textarea matInput formControlName="ghiChu"></textarea>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'"style="margin-left: 37%;">
+  <button mat-raised-button color="basic" mat-dialog-close>Hủy</button>
+  <button  style="margin-left: 8px;" mat-raised-button color="primary" (click)="themMoi()">{{actionBtn}}</button>
+</div>

@@ -1,0 +1,22 @@
+{
+  "toDoList": [
+    {
+      "tenDanhMuc": "bánh mì pate",
+      "maDanhMuc": 2123,
+      "ghiChu": "ngấy",
+      "id": 1
+    },
+    {
+      "tenDanhMuc": "xôi trứng",
+      "maDanhMuc": 45,
+      "ghiChu": "lắm mỡ",
+      "id": 2
+    },
+    {
+      "tenDanhMuc": "Bún",
+      "maDanhMuc": 567,
+      "ghiChu": "Nhạt",
+      "id": 4
+    }
+  ]
+}
